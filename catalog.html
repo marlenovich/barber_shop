@@ -11,32 +11,30 @@
 
         <nav class="main-navigation">
             <a class="main-header-logo" href="index.html">
-                <img  src="svg/index-logo.svg" alt="Логотип Барбершопа Бородинский" 
-                width="30" height="30">
+                <img src="svg/index-logo.svg" alt="Логотип Барбершопа Бородинский" width="30" height="30">
             </a>
 
             <ul class="site-navigation">
-                <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
-                <li><a href="news.html">НОВОСТИ</a></li>
-                <li><a href="price.html">ПРАЙС-ЛИСТ</a></li>
-                <li class="site-navigation-current"><a href="magazine.html">МАГАЗИН</a></li>
-                <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                <li class="navigation-item"><a href="info.html">ИНФОРМАЦИЯ</a></li>
+                <li class="navigation-item"><a href="news.html">НОВОСТИ</a></li>
+                <li class="navigation-item"><a href="price.html">ПРАЙС-ЛИСТ</a></li>
+                <li class="navigation-item site-navigation-current"><a href="magazine.html">МАГАЗИН</a></li>
+                <li class="navigation-item"><a href="contacts.html">КОНТАКТЫ</a></li>
             </ul>
-            
-            <a href="#" class="login">Вход</a>
-            
-
+            <a class="login-link" href="#">Вход</a>
         </nav>
+
     </header>
 
 
-    <main>
-        <h1 class="pag-title">СРЕДСТВА ДЛЯ УХОДА</h1>
-        <ul class="breadcrumbs">
+    <main class="container">
+        <h1 class="page-title">СРЕДСТВА ДЛЯ УХОДА</h1>
+
+        <ol class="breadcrumbs">
             <li><a href="index.html">ГЛАВНАЯ</a></li>
             <li><a href="catalog.html">МАГАЗИН</a></li>
             <li class="breadcrumbs-current">СРЕДСТВА ДЛЯ УХОДА</li>
-        </ul>
+        </ol>
 
 
         <section class="filter">
@@ -49,10 +47,11 @@
 
             <ul class="catalog-list">
                 <li class="catalog-item">
-                    <h3>
+                    <h3 class="catalog-item-name">
                         <a href="catalog-item.html">
                             <span class="catalog-categoty">Набор для путешествий</span>
-                            <span>«Baxter of California»</a></span>
+                            <span>«Baxter of California»</span>
+                        </a>
                     </h3>
 
                     <p class="catalog-item-image">
@@ -65,12 +64,14 @@
                         <b>2 900 ₽</b>
                         <a class="button" href="#">КУПИТЬ</a>
                     </p>
+                    
                 </li>
                 <li class="catalog-item">
-                    <h3>
+                    <h3 class="catalog-item-name">
                         <a href="catalog-item.html">
                             <span class="catalog-categoty">Увлажняющий кондиционер</span>
-                            <span>«Baxter of California»</a></span>
+                            <span>«Baxter of California»</span>
+                        </a>
                     </h3>
 
                     <p class="catalog-item-image">
@@ -85,10 +86,11 @@
                     </p>
                 </li>
                 <li class="catalog-item">
-                    <h3>
+                    <h3 class="catalog-item-name">
                         <a href="catalog-item.html">
                             <span class="catalog-categoty">Гель для волос</span>
-                            <span>«SUAVECITO»</a></span>
+                            <span>«SUAVECITO»</span>
+                        </a>
                     </h3>
 
                     <p class="catalog-item-image">
@@ -104,10 +106,11 @@
                 </li>
 
                 <li class="catalog-item">
-                    <h3>
+                    <h3 class="catalog-item-name">
                         <a href="catalog-item.html">
                             <span class="catalog-categoty">Глина для укладки волос</span>
-                            <span>«American crew»</a></span>
+                            <span>«American crew»</span>
+                        </a>
                     </h3>
 
                     <p class="catalog-item-image">
@@ -122,10 +125,11 @@
                     </p>
                 </li>
                 <li class="catalog-item">
-                    <h3>
+                    <h3 class="catalog-item-name">
                         <a href="catalog-item.html">
                             <span class="catalog-categoty">Гель для волос </span>
-                            <span>«AMERICAN CREW»</a></span>
+                            <span>«AMERICAN CREW»</span>
+                        </a>
                     </h3>
 
                     <p class="catalog-item-image">
@@ -140,10 +144,11 @@
                     </p>
                 </li>
                 <li class="catalog-item">
-                    <h3>
+                    <h3 class="catalog-item-name">
                         <a href="catalog-item.html">
                             <span class="catalog-categoty">Набор для бритья </span>
-                            <span>«Baxter of California»</a></span>
+                            <span>«Baxter of California»</span>
+                        </a>
                     </h3>
 
                     <p class="catalog-item-image">
@@ -165,43 +170,37 @@
                 <li class="pagination-item"><a href="">3</a></li>
                 <li class="pagination-item"><a href="">4</a></li>
             </ul>
+            
         </section>
-
-
-
     </main>
 
+
     <footer class="main-footer">
-        <h2 class="visible-hidden">Как нас найти</h2>
-        <section>
+        <section class="footer-contacts">
+            <h2 class="visible-hidden">Как нас найти</h2>
             <p>
                 БАРБЕРШОП «БОРОДИНСКИЙ»<br>
                 АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
-                <a href="blank.html">КАК НАС НАЙТИ?</a><br>
-                ТЕЛЕФОН: +7 (812) 666-02-66
+                <a class="footer-address" href="blank.html" >
+                    КАК НАС НАЙТИ?
+                </a><br>
+                ТЕЛЕФОН: <a class="footer-phone" href="tel:+78126660266">+7 (812) 666-02-66</a> 
             </p>
         </section>
 
-        <section>
-            <h3>ДАВАЙТЕ ДРУЖИТЬ!</h3>
-            
+        <section class="footer-social">
+            <h2 class="visible-hidden">ДАВАЙТЕ ДРУЖИТЬ!</h2>
             <ul class="social-list">
-                <li class="social-list-item">
-                    <a href="">Вконтакте</a>
-                </li>
-                <li class="social-list-item">
-                    <a href="">Facebook</a>
-                </li>
-                <li class="social-list-item">
-                    <a href="">Instagram</a>
-                </li>
+                <li class="social-button"><a href="#">Вконтакте</a></li>
+                <li class="social-button"><a href="#">Facebook</a></li>
+                <li class="social-button"><a href="#">Instagram</a></li>
             </ul>
         </section>
 
-        <p> 
-            РАЗРАБОТАНО:<br>
-            <a href="">HTML ACADEMY</a>
+        <p class="copyright">РАЗРАБОТАНО:<br>
+            <a class="button" href="blank.html">HTML ACADEMY</a>
         </p>
+        
     </footer>
         
 

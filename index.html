@@ -1,62 +1,60 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" class="page">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Барбершоп Бородинский</title>
 </head>
-<body>
-    
+
+
+<body class="page-body">
     <header class="main-header">
 
         <nav class="main-navigation">
-            <a class="main-header-logo">
-                <img  src="svg/index-logo.svg" alt="Логотип Барбершопа Бородинский" 
-                width="420" height="420">
+            <a class="main-header-logo" href="index.html">
+                <img src="svg/index-logo.svg" alt="Логотип Барбершопа Бородинский" width="30" height="30">
             </a>
 
             <ul class="site-navigation">
-                <li><a href="info.html">ИНФОРМАЦИЯ</a></li>
-                <li><a href="news.html">НОВОСТИ</a></li>
-                <li><a href="price.html">ПРАЙС-ЛИСТ</a></li>
-                <li><a href="magazine.html">МАГАЗИН</a></li>
-                <li><a href="contacts.html">КОНТАКТЫ</a></li>
+                <li class="navigation-item"><a href="info.html">ИНФОРМАЦИЯ</a></li>
+                <li class="navigation-item"><a href="news.html">НОВОСТИ</a></li>
+                <li class="navigation-item"><a href="price.html">ПРАЙС-ЛИСТ</a></li>
+                <li class="navigation-item site-navigation-current"><a href="magazine.html">МАГАЗИН</a></li>
+                <li class="navigation-item"><a href="contacts.html">КОНТАКТЫ</a></li>
             </ul>
-            
-            <a href="#" class="login">Вход</a>
-            
-
+            <a class="login-link" href="#">Вход</a>
         </nav>
+
     </header>
 
 
-    <main>
-        <h1 class="visible-hidden">Барбершоп Бородинский></h1>
-        
-        <section class="features">
+    <main class="container">
+        <h1 class="visible-hidden">Барбершоп Бородинский</h1>
+
+        <section class="advantages">
             <h2 class="visible-hidden">Преимущества</h2>
-            <ul class="features-list">
-                
-                <li class="features-list-item">
+            <ul class="advantages-list">
+                <li class="advantages-item">
                     <h3>БЫСТРО</h3>
                     <p>
-                        МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА<br> 
-                        ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ<br> 
+                        МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА<br>
+                        ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ<br>
                         ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
                     </p>
                 </li>
 
-                <li class="features-list-item">
+                <li class="advantages-item">
                     <h3>КРУТО</h3>
                     <p>
                         ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ.<br>
-                        МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br>       
-                        ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+                       МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО!<br>      
+                       ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
                     </p>
                 </li>
 
-                <li class="features-list-item">
+                <li class="advantages-item">
                     <h3>ДОРОГО</h3>
                     <p>
                         НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И<br>
@@ -64,111 +62,117 @@
                         НЕ ДАЕТ ОПРЕДЕЛЕННЫЙ СТАТУС?
                     </p>
                 </li>
-
             </ul>
-            
-        </section>
-        
-        <section class="news">
-            <h2>НОВОСТИ</h2>
-            <ul class="news-list">
-                <li class="news-list-item">
-                    <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ<br>
-                        ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
-                    <time datetime="2024-01-11">11 января</time>
-                </li>
-                <li class="news-list-item">
-                    <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА<br>
-                        ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ<br>
-                        СТРОЙНЫЕ РЯДЫ</p>
-                    <time datetime="2024-01-18">18 января</time>
-                </li>
-            </ul>
-            <a href="news.html">ВСЕ НОВОСТИ</a>
         </section>
 
-        <section class="gallery">
-            <h2>ФОТОГАЛЕРЕЯ</h2>
-            <figure>
-                <a href="#">
-                    <img src="" alt="">
-                </a>
-            </figure>
-            <button type="button" disabled>НАЗАД</button>
-            <button type="button">ВПЕРЕД</button>
-        </section>
 
-        <section class="contacts">
-            <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
-            <p>
-                БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
-                ТЕЛЕФОН: +7 (812) 666-02-66
-            </p>
-            <p>
-                ВРЕМЯ РАБОТЫ: <br>
-                ПН—ПТ: С 10:00 ДО 22:00 <br>
-                СБ—ВС: С 10:00 ДО 19:00
-            </p>
-            <a href="">КАК ПРОЕХАТЬ</a>
-            <a href="">ОБРАТНАЯ СВЯЗЬ</a>
-        </section>
-
-        <section class="appointment">
-            <h2>ЗАПИСАТЬСЯ</h2>
-            <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ<br>
-                С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-            <!-- Форма для записи -->
-        </section>
-
-        <footer class="main-footer">
-            <h2 class="visible-hidden">Как нас найти</h2>
-            <section>
-                <p>
-                    БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-                    АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
-                    <a href="blank.html">КАК НАС НАЙТИ?</a><br>
-                    ТЕЛЕФОН: +7 (812) 666-02-66
-                </p>
-            </section>
-
-            <section>
-                <h3>ДАВАЙТЕ ДРУЖИТЬ!</h3>
-                
-                <ul class="social-list">
-                    <li class="social-list-item">
-                        <a href="">Вконтакте</a>
+        <div class="index-columns">
+            <section class="news">
+                <h2>НОВОСТИ</h2>
+                <ul class="news-list">
+                    <li class="news-item">
+                        <p>
+                            НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ<br> 
+                            ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+                        </p>
+                        <time datetime="2024-01-11">11 января</time>
                     </li>
-                    <li class="social-list-item">
-                        <a href="">Facebook</a>
-                    </li>
-                    <li class="social-list-item">
-                        <a href="">Instagram</a>
+                    <li class="news-item">
+                        <p>
+                            В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ,<br>
+                            ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ<br>
+                            СТРОЙНЫЕ РЯДЫ
+                        </p>
+                        <time datetime="2024-01-18">18 января</time>
                     </li>
                 </ul>
+                <a class="button" href="news.html">ВСЕ НОВОСТИ</a>
+
+            </section>
+            
+            <section class="gallery">
+                <h2>ФОТОГАЛЕРЕЯ</h2>
+                <figure class="gallery-content">
+                    <a href="blank.html">
+                        <img src="" alt="Фотография с помещения">
+                    </a>
+                </figure>
+                <button class="button gallery-button gallery-button-back" type="button" disabled>НАЗАД</button>
+                <button class="button gallery-button gallery-button-next" type="button">ВПЕРЕД</button>
+
+            </section>
+        </div>
+
+        <div class="index-columns">
+            <section class="contacts">
+                <h2>КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
+
+                <p class="contacts-address">
+                    БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+                    АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
+                    ТЕЛЕФОН: <a class="contacts-phone" href="tel:+78126660266">+7 (812) 666-02-66</a> 
+                </p>
+
+                <p class="contacts-worktime">
+                    ВРЕМЯ РАБОТЫ:<br>
+                    ПН—ПТ: С 10:00 ДО 22:00<br>
+                    СБ—ВС: С 10:00 ДО 19:00
+                </p>
+                <a class="button" href="blank.html">КАК ПРОЕХАТЬ</a>
+                <a class="button" href="blank.html">ОБРАТНАЯ СВЯЗЬ</a>
             </section>
 
-            <p> 
-                РАЗРАБОТАНО:<br>
-                <a href="">HTML ACADEMY</a>
-            </p>
-            
-        </footer>
+
+            <section class="appointment">
+                <h2>ЗАПИСАТЬСЯ</h2>
+                <p class="appointment-info">
+                    УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ<br>
+                    С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+                </p>
+                <!-- Форма -->
+            </section>
+        </div>
     </main>
 
-<section class="login-module">
+    <footer class="main-footer">
+        <section class="footer-contacts">
+            <h2 class="visible-hidden">Как нас найти</h2>
+            <p>
+                БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+                АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+                <a class="footer-address" href="blank.html" >
+                    КАК НАС НАЙТИ?
+                </a><br>
+                ТЕЛЕФОН: <a class="footer-phone" href="tel:+78126660266">+7 (812) 666-02-66</a> 
+            </p>
+        </section>
+
+        <section class="footer-social">
+            <h2 class="visible-hidden">ДАВАЙТЕ ДРУЖИТЬ!</h2>
+            <ul class="social-list">
+                <li class="social-button"><a href="#">Вконтакте</a></li>
+                <li class="social-button"><a href="#">Facebook</a></li>
+                <li class="social-button"><a href="#">Instagram</a></li>
+            </ul>
+        </section>
+
+        <p class="copyright">РАЗРАБОТАНО:<br>
+            <a class="button" href="blank.html">HTML ACADEMY</a>
+        </p>
+        
+    </footer>
+
+    
+<section class="login">
     <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
-    <!-- Форма -->
-    <button type="button">Закрыть</button>
+    <p>ВВедите пожалуйста свой логин и пароль</p>
+    <!-- Форма логина -->
 </section>
 
 
-<section class="map-module">
-    <h2 class="visible-hidden">Как добраться</h2>
-    <button type="button">Закрыть</button>
+<section class="maps">
+    <h2>Как добраться?</h2>
+    <img src="" alt="">
 </section>
-             
-
-
 </body>
 </html>
